@@ -92,14 +92,16 @@
     <Compile Include="exchanger\exchanger.cs" />
     <Compile Include="exchanger\remoteinfo.cs" />
     <Compile Include="command\command.cs" />
-    <Compile Include="identity\identity.cs" />
     <Compile Include="packet\packet.cs" />
     <Compile Include="packet\enums\privilege.cs" />
+    <Compile Include="utils\Base62Converter.cs" />
     <Compile Include="utils\idfactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="cryptor\cryptor.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="identity\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>copy "$(TargetPath)" "E:\!My Projects\!Yggdrasil\Unity\Assets\Assemblies"
