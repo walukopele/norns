@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLIENTGUI", "norns\wyrd\ui\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "client_console", "norns\wyrd\ui\tester\client_console.csproj", "{CA9B4D4D-C245-4297-AAE9-10B7B004F804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "worker_example", "yarn\worker_example\worker_example.csproj", "{041C168F-D8F4-49C3-97BC-9F886C1FDA84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,18 @@ Global
 		{CA9B4D4D-C245-4297-AAE9-10B7B004F804}.x64 release|Any CPU.Build.0 = Release|Any CPU
 		{CA9B4D4D-C245-4297-AAE9-10B7B004F804}.x64 release|x64.ActiveCfg = Release|Any CPU
 		{CA9B4D4D-C245-4297-AAE9-10B7B004F804}.x64 release|x64.Build.0 = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Debug|x64.Build.0 = Debug|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Release|x64.ActiveCfg = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.Release|x64.Build.0 = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.x64 release|Any CPU.ActiveCfg = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.x64 release|Any CPU.Build.0 = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.x64 release|x64.ActiveCfg = Release|Any CPU
+		{041C168F-D8F4-49C3-97BC-9F886C1FDA84}.x64 release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
